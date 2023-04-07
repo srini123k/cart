@@ -16,6 +16,10 @@ const counter = new promClient.Counter({
 
 
 var redisConnected = false;
+var redisConnected = false;
+var redisConnected = false;
+var redisConnected = false;
+var redisConnected = false;
 
 var redisHost = process.env.REDIS_HOST || 'redis'
 var catalogueHost = process.env.CATALOGUE_HOST || 'catalogue'
